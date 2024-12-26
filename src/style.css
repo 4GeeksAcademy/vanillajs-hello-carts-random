@@ -1,1 +1,51 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body{
+    margin: 0;
+    background-color: green;
+  }
+  .carta {
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 25px;
+    background: #f7eeee; 
+    width: 400px;  
+    height: 550px;
+  }
+
+  .container {
+    margin: 0 auto;
+    border: solid 2px #fcf4f4;
+    height: 55px;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  #numero {
+    content: normal;
+    margin: 0 auto;
+    border: solid 2px #f7eeee;
+    height: 60px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 120px;
+  }
+
+  #pool {
+    content: icon;
+    margin: 0 auto;
+    border: solid 2px #f7eeee;
+    height: 60px;
+    border-radius: 25px;
+    text-align: left;
+    font-size: 120px;
+  }
+
+  #pool2 {
+    content: icon;
+    margin: 0 auto;
+    border: solid 2px #f7eeee;
+    height: 60px;
+    border-radius: 25px;
+    text-align: right;
+    font-size: 120px;
+  }
+
